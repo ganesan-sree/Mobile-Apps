@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reddot</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome">Welcome to RedDot</string>
+    <string name="reddot">Red Dot Brewster</string>
+    <string name="location">Location</string>
+    <string name="onlinereservation">Online Reservation</string>
+
+</resources>
