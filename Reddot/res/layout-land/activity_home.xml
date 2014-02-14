@@ -1,0 +1,23 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent">
+   
+  
+   <Button
+       android:id="@+id/button1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="72dp"
+       android:layout_y="96dp"
+       android:text="Button" />
+
+   <Button
+       android:id="@+id/button2"
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_x="264dp"
+       android:layout_y="102dp"
+       android:text="Button" />
+
+</AbsoluteLayout>

@@ -2,11 +2,10 @@ package com.reddot.emenu.activitys;
 
 
 
-
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -36,6 +35,25 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+    
+    
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+    // TODO Auto-generated method stub
+    super.onConfigurationChanged(newConfig);
+     
+    if(newConfig.orientation==Configuration.ORIENTATION_LANDSCAPE){
+     
+    System.out.println("On Config ChangeLANDSCAPE");
+    setContentView(R.layout.activity_main);
+     
+    }else{
+     
+    System.out.println("On Config ChangePORTRAIT");
+    setContentView(R.layout.activity_main);
+     
+    }
     }
     
 }
