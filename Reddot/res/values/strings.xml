@@ -7,5 +7,25 @@
     <string name="reddot">Red Dot Brewster</string>
     <string name="location">Location</string>
     <string name="onlinereservation">Online Reservation</string>
-
+    <string name="address">
+				Our Location\n
+				RedDot BrewHouse @ Boat Quay\n 
+				33/34 Boat Quay Singapore, 049823\n
+				 		\n		 
+				Operational Hours\n\n
+				Monday to Thursday :12pm to 12am\n
+				Lunch: 12pm to 2.30pm\n
+				Dinner: 6.00pm to 10.00pm\n\n
+				 	 	 
+				Friday, Saturday and\n 
+				Eve of Public Holidays :12pm to 1am\n
+				Lunch: 12pm to 2.30pm\n
+				Dinner: 6.00pm to 10.30pm\n\n
+				 	 	 
+				Sundays :	 	Closed\n\n
+				 	 	 
+				For reservation, call us at 6535-4500\n 
+				We welcome all feedback so do drop us a \n note at rd@reddotbrewhouse.com.sg\n\n
+				For event enquiries, call us at 6535 4100 or \n email to rd@reddotbrewhouse.com.sg\n\n
+       </string>
 </resources>

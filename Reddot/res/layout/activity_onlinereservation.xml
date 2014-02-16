@@ -7,7 +7,7 @@
     <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:background="#fff" >
+        android:background="#000000" >
 
         <!-- Registration Form -->
 
@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="#000000"
             android:padding="10dip" >
 
             <!-- Full Name Label -->
@@ -24,7 +25,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Preference 1"
-                android:textColor="#372c24" />
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/preference1"
@@ -39,7 +40,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Preference 2"
-                android:textColor="#372c24" />
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/preference2"
@@ -54,7 +55,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Name"
-                android:textColor="#372c24" />
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/name"
@@ -67,7 +68,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Email"
-                android:textColor="#372c24" />
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/email"
@@ -80,7 +81,7 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Mobile"
-                android:textColor="#372c24" />
+                android:textColor="#FFFFFF" />
 
             <EditText
                 android:id="@+id/mobile"
@@ -93,6 +94,7 @@
                 android:id="@+id/txtDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
                 android:text="Reservation Date" />
 
              <EditText
@@ -105,6 +107,7 @@
                 android:id="@+id/txtTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
                 android:text="Reservation Time" />
 
              <EditText
@@ -119,6 +122,7 @@
                 android:id="@+id/splreq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
                 android:text="Special Request" />
 
              <EditText

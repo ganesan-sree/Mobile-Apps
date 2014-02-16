@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:visibility="visible" >
+    android:visibility="visible"
+    android:background="#000000" >
 
     <TextView
         android:id="@+id/textView3"
@@ -17,6 +18,7 @@
         android:layout_below="@+id/location"
         android:layout_marginTop="16dp"
         android:text="@string/location"
+        android:textColor="#FFFFFF"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ImageButton
@@ -36,6 +38,7 @@
         android:layout_marginBottom="53dp"
         android:layout_marginLeft="52dp"
         android:text="@string/onlinereservation"
+        android:textColor="#FFFFFF"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <ImageButton
