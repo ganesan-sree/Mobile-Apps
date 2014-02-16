@@ -1,0 +1,49 @@
+<com.reddot.emenu.activitys.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
+	<!--  Menus Button -->
+    <Button
+        android:id="@+id/btn_menu"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_newsfeed"
+        android:text="Menus" />
+    
+	<!--  Beers Button -->
+    <Button
+        android:id="@+id/btn_beer"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_friends"
+        android:text="Ours Beers" />
+    
+	<!--  Calandar Button -->
+    <Button
+        android:id="@+id/btn_calandar"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_messages"
+        android:text="Calandar" />
+	
+    <!--  About Us Button -->
+    <Button
+        android:id="@+id/btn_about"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_places"
+        android:text="About Us" />
+
+    <!--  Events Button -->
+    <Button
+        android:id="@+id/btn_events"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_events"
+        android:text="Events" />
+
+    <!--  Gallery Button -->
+    <Button
+        android:id="@+id/btn_gallery"
+        style="@style/DashboardButton"
+        android:drawableTop="@drawable/btn_photos"
+        android:text="Gallery" />
+
+</com.reddot.emenu.activitys.dashboard.DashboardLayout>

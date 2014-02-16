@@ -23,14 +23,34 @@
             </intent-filter>
         </activity>
                 
-        <activity android:name=".DashBoardActivity"></activity>
-        <activity android:name="com.reddot.emenu.activitys.HomeActivity"
-                    android:configChanges="keyboardHidden|orientation"
-            ></activity>
+        <activity android:name="com.reddot.emenu.activitys.HomeActivity"></activity>
         <activity android:name="com.reddot.emenu.activitys.LoactionActivity"></activity>
         <activity android:name="com.reddot.emenu.activitys.OnlineReservation"></activity>
         
         
+        
+         <activity
+            android:label="@string/app_name"
+            android:name="com.reddot.emenu.activitys.dashboard.DashBoardActivity" >
+         </activity>
+
+        <!-- News Feed Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.MenusActivity" ></activity>
+
+        <!-- Friends Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.BeersActivity" ></activity>
+
+        <!-- Messages Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.CalandarActivity" ></activity>
+
+        <!-- Places Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.AboutUsActivity" ></activity>
+
+        <!-- Events Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.EventsActivity" ></activity>
+        
+        <!-- Photos Activity -->
+        <activity android:name="com.reddot.emenu.activitys.dashboard.GalleryActivity" ></activity>
         
         
     </application>
