@@ -1,73 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:fillViewport="true" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+     android:fillViewport="true">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:background="#000000" >
-
+    
         <!-- Registration Form -->
 
         <LinearLayout
             android:id="@+id/linearLayout1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:background="#000000"
+            android:orientation="vertical"
             android:padding="10dip" >
 
-            <!-- Full Name Label -->
+           
 
             <TextView
-                android:layout_width="fill_parent"
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Preference 1"
-                android:textColor="#FFFFFF" />
-
+                 android:textColor="#FFFFFF"               
+                android:text="Preference 1" />
             <EditText
-                android:id="@+id/preference1"
+                android:id="@+id/editText1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dip"
-                android:layout_marginTop="5dip"
-                android:singleLine="true" />
-            <!-- Email Label -->
+                android:background="#FFFFFF">
+                <requestFocus />
+            </EditText>
+            
+            
+            
 
             <TextView
+                android:id="@+id/textView1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Preference 2"
-                android:textColor="#FFFFFF" />
-
+                 android:textColor="#FFFFFF"
+                android:text="Preference 2" />
             <EditText
-                android:id="@+id/preference2"
+                android:id="@+id/editText2"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="20dip"
-                android:layout_marginTop="5dip"
-                android:singleLine="true" />
-            <!-- Password Label -->
+                android:background="#FFFFFF" />
 
+            
+            
+            
+            
             <TextView
+                android:id="@+id/textView1"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Name"
-                android:textColor="#FFFFFF" />
-
+                android:textColor="#FFFFFF"
+                android:text="Name" />
             <EditText
-                android:id="@+id/name"
+                android:id="@+id/editText3"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="5dip"
-                android:singleLine="true" />
+                android:background="#FFFFFF" />
 
+            
+            
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:text="Email"
+                android:text="Email Address"
                 android:textColor="#FFFFFF" />
 
             <EditText
@@ -75,7 +75,8 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
-                android:singleLine="true" />
+                android:background="#FFFFFF"
+                 />
 
             <TextView
                 android:layout_width="fill_parent"
@@ -88,61 +89,67 @@
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
-                android:singleLine="true" />
+                android:background="#FFFFFF"
+                 />
 
             <TextView
                 android:id="@+id/txtDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:text="Reservation Date" />
+                android:text="Reservation Date"
+                android:textColor="#FFFFFF" />
 
-             <EditText
+            <EditText
                 android:id="@+id/date"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
-                android:singleLine="true" />
+                android:background="#FFFFFF"
+                 />
+
             <TextView
                 android:id="@+id/txtTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:text="Reservation Time" />
+                android:text="Reservation Time"
+                android:textColor="#FFFFFF" />
 
-             <EditText
+            <EditText
                 android:id="@+id/time"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dip"
-                android:singleLine="true" />
-             
-             
-             <TextView
+                android:background="#FFFFFF"
+                 />
+
+            <TextView
                 android:id="@+id/splreq"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:text="Special Request" />
+                android:text="Special Request"
+                android:textColor="#FFFFFF" />
 
-             <EditText
+            <EditText
                 android:id="@+id/splreq"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="100dp"
                 android:layout_marginTop="20dip"
-                android:singleLine="true" />
-             
-        </LinearLayout>
-
-        <!-- Registration Form Ends -->
-
-        <Button
+                android:background="#FFFFFF"
+                 />
+            
+            
+         <Button
             android:id="@+id/btnRegister"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_alignParentLeft="true"
             android:text="Submit" />
-    </RelativeLayout>
+            
+        </LinearLayout>
+
+        <!-- Registration Form Ends -->
+
+            
 
 </ScrollView>

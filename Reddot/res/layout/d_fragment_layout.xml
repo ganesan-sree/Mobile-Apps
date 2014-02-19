@@ -8,28 +8,28 @@
     <Button
         android:id="@+id/btn_menu"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_newsfeed"
+        android:drawableTop="@drawable/btn_menus"
         android:text="Menus" />
     
 	<!--  Beers Button -->
     <Button
         android:id="@+id/btn_beer"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_friends"
+        android:drawableTop="@drawable/btn_beers"
         android:text="Ours Beers" />
     
 	<!--  Calandar Button -->
     <Button
         android:id="@+id/btn_calandar"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_messages"
+        android:drawableTop="@drawable/btn_calandars"
         android:text="Calandar" />
 	
     <!--  About Us Button -->
     <Button
         android:id="@+id/btn_about"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_places"
+        android:drawableTop="@drawable/btn_aboutus"
         android:text="About Us" />
 
     <!--  Events Button -->
@@ -43,7 +43,7 @@
     <Button
         android:id="@+id/btn_gallery"
         style="@style/DashboardButton"
-        android:drawableTop="@drawable/btn_photos"
+        android:drawableTop="@drawable/btn_gallery"
         android:text="Gallery" />
 
 </com.reddot.emenu.activitys.dashboard.DashboardLayout>
